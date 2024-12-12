@@ -1,0 +1,31 @@
+﻿.modal-list {
+    position: absolute; 
+    z-index: 1000;
+    width: 600px; 
+    max-height: 600px; 
+    background: linear-gradient(to bottom, #ffffff, #e0e0e0); 
+    border: 2px solid #888; 
+    border-radius: 10px; 
+    overflow-y: scroll;
+}
+
+.modal-list-content {
+    height: 100%; /* Заполняет все доступное пространство */
+    overflow-y: auto; /* Добавляем вертикальный скролл, если содержимое выходит за пределы */
+    padding: 10px;
+}
+
+.modal-list-header {
+    /* Стили для шапки модального окна */
+    background: linear-gradient(to right, #4a90e2, #007aff); /* Градиент для шапки */
+    color: white; /* Белый текст */
+    padding: 10px;
+    font-weight: bold;
+    border-top-left-radius: 10px; /* Скругление углов сверху */
+    border-top-right-radius: 10px;
+}
+
+.modal-list-body {
+    /* Основной контейнер для содержимого */
+    padding-top: 10px;
+}

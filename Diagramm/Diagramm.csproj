@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Similar_products.Application\Similar_products.Application.csproj" />
+    <ProjectReference Include="..\Core\Similar_products.Domain\Similar_products.Domain.csproj" />
+    <ProjectReference Include="..\Infrastructure\Similar_products.Infrastructure\Similar_products.Infrastructure.csproj" />
+    <ProjectReference Include="..\Presentation\Similar_products.Web\Similar_products.Web.csproj" />
+    <ProjectReference Include="..\Tests\Similar_products.Tests\Similar_products.Tests.csproj" />
+  </ItemGroup>
+
+</Project>
